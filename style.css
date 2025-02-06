@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Group\ 7838.jpg);
+}
+
+header,nav,ul{
+    width: 100vw;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    color: white;
+}
+
+main{
+    text-align: left;
+    margin-top: 10vw;
+}
+
+h1{
+    color: aqua;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: white;
+    font-size: x-large;
+}
+
+h4{
+    color: white;
+}
+
+@media only screen and(max-width: 600px){
+
+.url{
+    display: none;
+}
+
+h1{
+    font-size: 40px;
+}
+}
